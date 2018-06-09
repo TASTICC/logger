@@ -11,5 +11,5 @@ client.on('message', msg => {
   winston.log('info', `${msg.guild} - ${msg.channel.name} - @${msg.author.username}#${msg.author.discriminator} ( ${msg.author} ) - ${msg.createdAt} - ${msg.content}`);
 });
 
-//client.login(process.env.BOT_TOKEN);
-client.login(config.token)
+client.login(process.env.BOT_TOKEN);
+//client.login(config.token)
